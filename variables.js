@@ -9,7 +9,7 @@ var minText = "En string"
 // Sant/ Falskt
 var bool = true;
 
-//-----------------------------------//
+//-------------------------------------------------------//
 
 //Skapar en array och tilldelar värden
 var minArray = [10, 20, 30, 40, 50, 60, 70]
@@ -19,3 +19,11 @@ var minArray = [10, 20, 30, 40, 50, 60, 70]
 function utskriftArray() {
     alert(minArray[minArray.length-1])
 }
+
+//-------------------------------------------------------//
+
+function usernamePrompt() {
+    var username = prompt("Please enter your username")
+}
+
+
